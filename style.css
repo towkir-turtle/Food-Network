@@ -8,7 +8,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 /* Banner section */
-.banner-section {
+/* .banner-section {
+  margin-bottom: 100px;
+} */
+section {
   margin-bottom: 100px;
 }
 .row {
@@ -78,4 +81,68 @@ body {
   margin-bottom: 80px;
   font-weight: 500;
   line-height: 2;
+}
+/* Recipie section */
+.little-description {
+  text-align: center;
+}
+.little-description h2 {
+  color: #707070;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.little-description p {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 18px;
+  color: #252525;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.recipie-container {
+  display: flex;
+}
+.recipie-container .recipie-item {
+  width: 30%;
+  margin-right: 4%;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.recipie-item:last-child {
+  margin-right: 0;
+}
+.recipie-item img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.recipie-item h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.recipie-item p {
+  line-height: 2;
+}
+/* Footer */
+footer {
+  background: #0b0d17;
+  height: 250px;
+}
+.footer-text {
+  padding-top: 50px;
+  text-align: center;
+}
+.footer-text h2 {
+  font-size: 25px;
+  color: #5b5b5b;
+  word-spacing: 10px;
+  padding-bottom: 40px;
+}
+footer h2 span {
+  color: #fb934a;
+}
+footer p {
+  font-size: 14px;
+  color: #fff;
 }
