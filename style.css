@@ -8,6 +8,9 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 /* Banner section */
+.banner-section {
+  margin-bottom: 100px;
+}
 .row {
   width: 1140px;
   margin: 0 auto;
@@ -40,8 +43,7 @@ body {
   color: #828282;
   margin-bottom: 60px;
 }
-.banner-item .link-btn {
-  /* margin-top: 50px; */
+.link-btn {
   text-decoration: none;
   color: #fff;
   font-weight: 700;
@@ -51,3 +53,29 @@ body {
   border-radius: 50px;
 }
 /* About Section */
+.about-section {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-container {
+  display: flex;
+}
+.half-width .about-person {
+  padding-left: 50px;
+  width: 60%;
+}
+.about-container .about-item {
+  margin-top: 100px;
+}
+.about-item h2 {
+  color: #707070;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.about-item p {
+  color: #18191f;
+  margin-bottom: 80px;
+  font-weight: 500;
+  line-height: 2;
+}
