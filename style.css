@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.3;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* Banner section */
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
+.banner-container {
+  display: flex;
+}
+.banner-container .banner-item {
+  margin-top: 200px;
+}
+.banner-item h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #575757;
+}
+.banner-item .swag-text {
+  color: #fb934a;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 100%;
+  margin-top: 50px;
+}
+.banner-item p {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #828282;
+  margin-bottom: 60px;
+}
+.banner-item .link-btn {
+  /* margin-top: 50px; */
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  border: 1px solid #fb8f48;
+  background-image: linear-gradient(to right, #fb8f48, #fe492e);
+  padding: 20px 40px;
+  border-radius: 50px;
+}
+/* About Section */
