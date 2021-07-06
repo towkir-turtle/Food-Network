@@ -1,3 +1,4 @@
+/* Basic setup  */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,8 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Banner section  */
 section {
   margin-bottom: 100px;
 }
@@ -52,6 +55,7 @@ section {
   padding: 20px 40px;
   border-radius: 50px;
 }
+
 /* About Section */
 .about-section {
   background-image: url(images/shapes/7.png);
@@ -79,6 +83,7 @@ section {
   font-weight: 500;
   line-height: 2;
 }
+
 /* Recipie section */
 .little-description {
   text-align: center;
@@ -120,28 +125,6 @@ section {
 }
 .recipie-item p {
   line-height: 2;
-}
-/* Footer */
-footer {
-  background: #0b0d17;
-  height: 250px;
-}
-.footer-text {
-  padding-top: 50px;
-  text-align: center;
-}
-.footer-text h2 {
-  font-size: 25px;
-  color: #5b5b5b;
-  word-spacing: 10px;
-  padding-bottom: 40px;
-}
-footer h2 span {
-  color: #fb934a;
-}
-footer p {
-  font-size: 14px;
-  color: #fff;
 }
 
 /* Order section */
@@ -186,4 +169,27 @@ form {
 .submit-box span {
   color: #fff;
   padding: 0 5px;
+}
+
+/* Footer */
+footer {
+  background: #0b0d17;
+  height: 250px;
+}
+.footer-text {
+  padding-top: 50px;
+  text-align: center;
+}
+.footer-text h2 {
+  font-size: 25px;
+  color: #5b5b5b;
+  word-spacing: 10px;
+  padding-bottom: 40px;
+}
+footer h2 span {
+  color: #fb934a;
+}
+footer p {
+  font-size: 14px;
+  color: #fff;
 }
