@@ -7,10 +7,6 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-/* Banner section */
-/* .banner-section {
-  margin-bottom: 100px;
-} */
 section {
   margin-bottom: 100px;
 }
@@ -21,15 +17,15 @@ section {
 .banner-container {
   display: flex;
 }
-.banner-container .banner-item {
+.banner-container .banner-box {
   margin-top: 200px;
 }
-.banner-item h1 {
+.banner-box h1 {
   font-size: 50px;
   font-weight: 700;
   color: #575757;
 }
-.banner-item .swag-text {
+.banner-box .swag-text {
   color: #fb934a;
 }
 .half-width {
@@ -38,8 +34,9 @@ section {
 .half-width img {
   width: 100%;
   margin-top: 50px;
+  margin-left: 50px;
 }
-.banner-item p {
+.banner-box p {
   margin-top: 50px;
   font-size: 18px;
   font-weight: 500;
@@ -68,15 +65,15 @@ section {
   padding-left: 50px;
   width: 60%;
 }
-.about-container .about-item {
+.about-container .about-box {
   margin-top: 100px;
 }
-.about-item h2 {
+.about-box h2 {
   color: #707070;
   font-size: 40px;
   margin-bottom: 30px;
 }
-.about-item p {
+.about-box p {
   color: #18191f;
   margin-bottom: 80px;
   font-weight: 500;
@@ -106,7 +103,7 @@ section {
   width: 30%;
   margin-right: 4%;
   padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
 .recipie-item:last-child {
@@ -145,4 +142,48 @@ footer h2 span {
 footer p {
   font-size: 14px;
   color: #fff;
+}
+
+/* Order section */
+.order-section {
+  height: 500px;
+  background-image: url(images/food/Project\ Cover4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.order-section p {
+  font-size: 50px;
+  padding-top: 150px;
+  color: #fff;
+}
+form {
+  width: 85%;
+  height: 100px;
+  box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+.input-area {
+  display: flex;
+  padding-top: 20px;
+  /* padding-left: 20px; */
+}
+.input-box input[type="text"] {
+  border: 1px solid #fb934a;
+  padding: 20px 350px 20px 20px;
+  font-size: 14px;
+  color: #fb934a;
+}
+.submit-box {
+  margin-left: 50px;
+}
+.submit-box input[type="button"] {
+  padding: 20px 30px;
+  background: #c60d5c;
+  border: 1px solid #c60d5c;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.submit-box span {
+  color: #fff;
+  padding: 0 5px;
 }
